@@ -1,0 +1,80 @@
+.container{
+   border: 1px solid #d9d9d9;
+   border-radius: 10px;
+   margin-top: 40px;
+   width: 30%;
+   background-color: #D9E2E9;
+font-family: sans-serif;}
+.subContainer{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header{
+    margin-top: 10px;
+    text-align: center;
+}
+.date{
+    font-size: 20px ;
+}
+.time{
+    line-height: 0.8;
+}
+.subHeader{
+text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+}
+.searchCity{
+background-color: #EFEFEF;
+color: grey;
+}
+.searchCity, .submit{
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+.submit{
+    background-color: #C2C8CB;
+
+}
+.main{
+    padding-left: 0;
+    text-align: center;
+}
+.city{
+    font-size: 40px;
+}
+.temperature{
+    font-size: 40px;
+}
+.description, .minTemperature, .maxTemperature{
+    font-size: 20px;
+}
+
+.other{
+    font-size: 18px;
+        font-weight: 500;
+}
+.otherContainer{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.sunrise, .sunset, .wind, .realFeel, .humidity, .uvIndex{
+        border: 0.5px solid #EFEFEF;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+.webLink{
+    position:relative;
+text-align: right;}
+.credits{
+    text-align: center;
+}
